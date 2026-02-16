@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="Browser Name" value="Chrome"/>
+    <parameter name="Url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="Testpages.Maven_AmazonProject.TC2_Loginwith_validcreds">
+        <methods>
+          <include name="register"/>
+          <include name="browserlaunch"/>
+        </methods>
+      </class> <!-- Testpages.Maven_AmazonProject.TC2_Loginwith_validcreds -->
+      <class name="Testpages.Maven_AmazonProject.TC5_SerachProduct">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="searching"/>
+        </methods>
+      </class> <!-- Testpages.Maven_AmazonProject.TC5_SerachProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
