@@ -5,6 +5,7 @@
   <parameter name="Browser Name" value="Chrome"></parameter>
   <parameter name="Url" value="https://www.amazon.in/"></parameter>
     <classes>
+    <class name="Testpages.Maven_AmazonProject.TC1_Registration"/>
       <class name="Testpages.Maven_AmazonProject.TC2_Loginwith_validcreds"/>
       <class name="Testpages.Maven_AmazonProject.TC4_Editprofileinfo"/>
       <class name="Testpages.Maven_AmazonProject.TC5_SerachProduct"/>
